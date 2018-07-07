@@ -1,7 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
-    border:1px solid red;
+
+        background-image: url(../task3/图层\ 0.png);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 640px;
+        height: 1136px;
+        z-index: 2;
+      
+      
 }
 img{
     width: 50px;
@@ -17,9 +24,21 @@ img{
     width:200px;
     height: 50px;
 }
-p{  
-    margin:20%;
+p{
+        font-size: 30px;
+        font-family: "Adobe Heiti Std";
+        color: rgb(255, 255, 255);
+        line-height: 1.807;
+        position: absolute;
+        left: 90.3px;
+        top: 488.494px;
+        width: 449px;
+        height: 192px;
+        z-index: 26;
 }
+      
+    
+
 .btn{
     float:left;
     margin:10%;
