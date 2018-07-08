@@ -4,23 +4,19 @@
     background-image: url('../task3/图层\ 0.png');
     background-size:100%;
     z-index: -2;
+    font-size:100%;
 }
 
-.mini-btn{
-    display: block;
-    background-image: url('../task3/记录页_03.png');
-    background-size:100%;
-    z-index:1;
-    margin:5%;
-    width: 10%;
-    height:10%;
-    background-repeat: no-repeat;
 
-}
 
 .logo{
     text-align:center;
 }
+span{
+    margin-top:1rem;
+}
+@media all and (orientation : portrait){ 
+
 @media (max-width: 500px){
     img { vertical-align: middle;
         max-width: 50%;
@@ -34,8 +30,31 @@ p{
     font-family: "Adobe Heiti Std";
     color: rgb(255, 255, 255);
 }
+.mini-btn{
+    display: block;
+    background-image: url('../task3/记录页_03.png');
+    background-size:100%;
+    z-index:1;
+    margin: 14px;
+    width: 28px;
+    height:28px;
+    background-repeat: no-repeat;
+
 }
+}
+
 @media(min-width:501px){
+    .mini-btn{
+        display: block;
+        background-image: url('../task3/记录页_03.png');
+        background-size:100%;
+        z-index:1;
+        margin: 28px;
+        width: 56px;
+        height:56px;
+        background-repeat: no-repeat;
+    
+    }
 img { vertical-align: middle;
     }
 
@@ -47,6 +66,67 @@ img { vertical-align: middle;
         color: rgb(255, 255, 255);
     }
 }
+}
+
+
+@media all and (orientation : landscape) { 
+    @media (max-width: 500px){
+        img { vertical-align: middle;
+            max-width: 50%;
+            max-height: 50%;
+        }
+        
+    p{
+        /*描述字*/ 
+        margin-left:15%;
+        margin-top:5%;
+        margin-right:15%;
+        margin-bottom:5%;
+        font-size: 0.8rem;
+        font-family: "Adobe Heiti Std";
+        color: rgb(255, 255, 255);
+    }
+    .mini-btn{
+        display: block;
+        background-image: url('../task3/记录页_03.png');
+        background-size:100%;
+        z-index:1;
+        margin: 14px;
+        width: 28px;
+        height:28px;
+        background-repeat: no-repeat;
+    
+    }
+    }
+    
+    @media(min-width:501px){
+        .mini-btn{
+            display: block;
+            background-image: url('../task3/记录页_03.png');
+            background-size:100%;
+            z-index:1;
+            margin: 28px;
+            width: 56px;
+            height:56px;
+            background-repeat: no-repeat;
+        
+        }
+    img { vertical-align: middle;
+        }
+    
+        p{
+            /*描述字*/ 
+            margin-left:15%;
+            margin-top:5%;
+            margin-right:15%;
+            margin-bottom:5%;
+            font-size: 1.45rem;
+            font-family: "Adobe Heiti Std";
+            color: rgb(255, 255, 255);
+        }
+    }
+    }
+
 
 .btn-body{
 
