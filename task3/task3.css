@@ -34,7 +34,6 @@ p{
     display: block;
     background-image: url('../task3/记录页_03.png');
     background-size:100%;
-    z-index:1;
     margin: 14px;
     width: 28px;
     height:28px;
@@ -127,9 +126,7 @@ img { vertical-align: middle;
     }
     }
 
-
 .btn-body{
-
    text-align:center;
    display:block;
   }
