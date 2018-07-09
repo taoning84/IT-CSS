@@ -7,22 +7,28 @@
     font-size:100%;
 }
 
-
-
 .logo{
     text-align:center;
 }
-span{
-    margin-top:1rem;
-}
-@media all and (orientation : portrait){ 
 
+
+@media all and (orientation : portrait){ 
+/*横屏*/
 @media (max-width: 500px){
+    span{
+        display: list-item;
+        list-style:none;
+        font-size: 0.5rem;
+        margin-top:0.5rem;
+        font-family: "Adobe Heiti Std";
+        color: rgb(255, 255, 255);
+}
+
     img { vertical-align: middle;
         max-width: 50%;
         max-height: 50%;
-    }
-    
+        }
+   
 p{
     /*描述字*/ 
     margin:15%;
@@ -43,6 +49,15 @@ p{
 }
 
 @media(min-width:501px){
+    
+    span{
+        display: list-item;
+        list-style:none;
+        font-size: 1rem;
+        margin-top:1rem;
+        font-family: "Adobe Heiti Std";
+        color: rgb(255, 255, 255);
+}
     .mini-btn{
         display: block;
         background-image: url('../task3/记录页_03.png');
@@ -69,12 +84,22 @@ img { vertical-align: middle;
 
 
 @media all and (orientation : landscape) { 
+    /*竖屏*/
+
     @media (max-width: 500px){
         img { vertical-align: middle;
             max-width: 50%;
             max-height: 50%;
         }
         
+        span{
+            display: list-item;
+            list-style:none;
+            font-size: 0.5rem;
+            margin-top:0.5rem;
+            font-family: "Adobe Heiti Std";
+            color: rgb(255, 255, 255);
+    }
     p{
         /*描述字*/ 
         margin-left:15%;
@@ -99,6 +124,14 @@ img { vertical-align: middle;
     }
     
     @media(min-width:501px){
+        span{
+            display: list-item;
+            list-style:none;
+            font-size: 1rem;
+            margin-top:1rem;
+            font-family: "Adobe Heiti Std";
+            color: rgb(255, 255, 255);
+    }
         .mini-btn{
             display: block;
             background-image: url('../task3/记录页_03.png');
@@ -113,7 +146,7 @@ img { vertical-align: middle;
     img { vertical-align: middle;
         }
     
-        p{
+    p{
             /*描述字*/ 
             margin-left:15%;
             margin-top:5%;
@@ -122,8 +155,8 @@ img { vertical-align: middle;
             font-size: 1.45rem;
             font-family: "Adobe Heiti Std";
             color: rgb(255, 255, 255);
+            }
         }
-    }
     }
 
 .btn-body{
@@ -138,11 +171,4 @@ img { vertical-align: middle;
         padding-right:15%;
         float: right;
         text-align:center;}
-span{
-        display: list-item;
-        list-style:none;
-        font-size: 1rem;
-        font-family: "Adobe Heiti Std";
-        color: rgb(255, 255, 255);
-}
 
