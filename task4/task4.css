@@ -24,16 +24,18 @@
         html {font-size: 62.5%;}
     }
     }
+
     
 @media all and (orientation :landscape ){ 
             
     @media   (max-width: 500px) {
         html {font-size: 20%;}
     }
-         
+        
     @media   (min-width: 700px) {
         html {font-size: 21.5%;}
-    } 
+    }
+
     @media   (min-width: 701px) {
         html {font-size: 25.5%;}
     }   
