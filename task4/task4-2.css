@@ -30,7 +30,7 @@ span {
   }
 span.spanLeft{
     text-align: left;      
-    margin-left: 36px;
+    margin-left: 5%;
     width:30%;
 }
 span.spanMiddle{
@@ -40,7 +40,7 @@ span.spanMiddle{
 }
 span.spanRight{
     text-align: right;      
-    margin-right:36px;
+    margin-right:5%;
     width:30%;
 }
 
@@ -57,20 +57,20 @@ span.spanRight{
 
 .image{
     background-color: #fff;
-    margin-left: 46px;
-    width: 28px;
-    height: 40px; 
+    margin-left: 6.25%;
+    width: 3.85%;
+    height: 41%; 
 }
 
 .line{
-    margin-left:46px;
-    width: 2px;
-    height: 52px;
+    margin-left:6.25%;
+    width: 0.277%;
+    height: 52%;
     background-color: rgb(225, 229, 231);
     background-image:url("../task4/矩形\ 5\ 拷贝.png");
 }
 input{
-    margin-left:36px;
+    margin-left:4.86%;
     font-size: 3.6rem;
     font-family: "Adobe Heiti Std";
     color: rgb(225, 229, 231);
