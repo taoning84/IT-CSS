@@ -70,6 +70,7 @@ span.spanRight{
     background-color: rgb(225, 229, 231);
     background-image:url("../task4/矩形\ 5\ 拷贝.png");
 }
+
 input{
     margin-left:18px;
     font-size: 16px;
@@ -77,7 +78,9 @@ input{
     color: rgb(225, 229, 231);
     background-color: #fff;
     border:0;
+    width:100%;
 }
+
 .login{
     background-color: #5fc0cd;
     margin-top:30px;
@@ -87,9 +90,7 @@ input{
     color: rgb(243, 244, 246);
     border:0; 
     justify-content: center;
-    align-items:center;  
-
-
+    align-items:center;
 }
 
 footer{
@@ -100,8 +101,9 @@ footer{
     margin-right:14px;
     font-family: "Adobe Heiti Std";
     color: rgb(95, 192, 205);
-  
 }
+
 a{    
     font-size: 16px;
+    color: rgb(95, 192, 205);
 }
