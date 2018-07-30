@@ -85,8 +85,11 @@ input{
     font-size: 18px;
     font-family: "Adobe Heiti Std";
     color: rgb(243, 244, 246);
-    align-items:center;  
     border:0; 
+    justify-content: center;
+    align-items:center;  
+
+
 }
 
 footer{
