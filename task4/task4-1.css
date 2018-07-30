@@ -4,7 +4,7 @@
     background-color: #eff0f4;
     display: -webkit-flex; /* Safari */
     display: flex;
-   flex-direction: column; 
+   flex-direction: column;
    outline: none;
 }
 
@@ -19,31 +19,32 @@ header {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 7%;  
+    height: 40px;  
   }
-
+/*三个标题*/
 span {
     background-color: rgb(95, 192, 205);
     color:#fff;
-    font-size: 3.2rem;
+    font-size: 16px;
     font-family: "Adobe Heiti Std";
   }
 span.spanLeft{
     text-align: left;      
-    margin-left: 36px;
+    margin-left: 18px;
     width:30%;
 }
 span.spanMiddle{
-    font-size: 3.6rem;
+    font-size: 18px;
     text-align: center; 
     width:30%;    
 }
 span.spanRight{
     text-align: right;      
-    margin-right:36px;
+    margin-right:18px;
     width:30%;
 }
 
+/*输入框*/
 .inputBlack{
     display: -webkit-flex; /* Safari */
     display: flex;
@@ -51,50 +52,53 @@ span.spanRight{
     justify-content: flex-start ;
     align-items:center;
     background-color: #fff;
-    height: 8%;
-    margin-top:2.66%;
+    height: 40px;
+    margin-top:10px;
 }
 
 .image{
     background-color: #fff;
-    margin-left: 46px;
-    width: 28px;
-    height: 40px; 
+    margin-left: 14px;
+    width: 14px;
+    height: 20px; 
 }
 
 .line{
-    margin-left:46px;
-    width: 2px;
-    height: 52px;
+    margin-left:14px;
+    width: 1px;
+    height: 20px;
     background-color: rgb(225, 229, 231);
     background-image:url("../task4/矩形\ 5\ 拷贝.png");
 }
 input{
-    margin-left:36px;
-    font-size: 3.6rem;
+    margin-left:18px;
+    font-size: 16px;
     font-family: "Adobe Heiti Std";
     color: rgb(225, 229, 231);
     background-color: #fff;
-    border:none;
+    border:0;
 }
 .login{
     background-color: #5fc0cd;
-    margin-top:5.64%;
-    height:8.06%;
-    font-size: 3.6rem;
+    margin-top:30px;
+    height:45px;
+    font-size: 18px;
     font-family: "Adobe Heiti Std";
     color: rgb(243, 244, 246);
-    align-items:center;    
+    align-items:center;  
+    border:0; 
 }
 
 footer{
     display: -webkit  inline-flex; /* Safari */
     display:  inline-flex;
     flex-direction: row-reverse;
-    margin-top:0.4%;
-    margin-right:4.16%;
+    margin-top:8px;
+    margin-right:14px;
     font-family: "Adobe Heiti Std";
     color: rgb(95, 192, 205);
+  
 }
-a{    font-size: 3.2rem;
+a{    
+    font-size: 16px;
 }
