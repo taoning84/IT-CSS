@@ -14,19 +14,3 @@ setTimeout(function() {
 　　setFontSize();
 }, 100);
 
-
-
-.注册 {
-    font-size: 32px;
-    font-family: "STHeitiSC";
-    color: rgb(255, 255, 255);
-    line-height: 0.351;
-    -moz-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
-    -webkit-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
-    -ms-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
-    position: absolute;
-    left: 259.947px;
-    top: 43.981px;
-    z-index: 9;
-  }
-  

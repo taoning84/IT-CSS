@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(95, 192, 205);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px; 
+}
+
+/*后退按钮*/
+.back{
+    background-image: url("../task5/150%\ 返回.png");
+    background-color: rgb(95, 192, 205);
+    margin-left: 15px;
+    width: 10px;
+    height: 17px;
+    border:none;
+}
+
+
+.spanMiddle{
+    flex: 1;
+    align-items:center;
+    margin-left: -27px;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.person{
+    height:145px;
+    width: 100%;
+    border:1px;
+    border-style:solid;
+    border-color:  rgb(95, 192, 205);
+
+}
+
+.line{
+    height:45px;
+    width: 100%;
+    border:1px;
+    border-style:solid;
+    border-color:  rgb(95, 192, 205);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    left: 0px;
+    width: 100%;
+    height: 40px; 
+    flex: 0 0 auto;
+}
+.bottom-button1{
+    border-radius: 4px;
+    width: 139px;
+    height: 40px;
+    margin-left:14px;
+    margin-bottom:18px;
+    border:1px;
+    border-style:solid;
+    border-color:  rgb(95, 192, 205);
+    background: #ffffff;
+    color: rgb(95, 192, 205);
+    align-items:center;
+    padding-top:10px;
+    font-size: 14px;
+
+}
+.bottom-button2{
+    border-radius: 4px;
+    width: 139px;
+    height: 40px;
+    margin-right:14px;
+    margin-bottom:18px;
+    border:1px;
+    border-style:solid;
+    border-color:  rgb(95, 192, 205);
+    background: rgb(95, 192, 205);
+    color: #ffffff;
+    align-items:center;
+    padding-top:10px;
+    font-size: 14px;
+
+}
+.电话联系 {
+    
+    font-family: "HiraginoSansGB";
+    color: rgb(255, 255, 255);
+    line-height: 0.33;
+    -moz-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
+    -webkit-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
+    -ms-transform: matrix( 0.44444444444444,0,0,0.44453125,0,0);
+    position: absolute;
+    left: 168.978px;
+    top: 537.302px;
+    z-index: 75;
+  }
+  
